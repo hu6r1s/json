@@ -8,7 +8,19 @@ This package contains a plugin that allows you to natively lint JSON, JSONC, and
 
 ## Installation
 
-For Node.js and compatible runtimes:
+You can install ESLint using npm or other package managers:
+
+```shell
+npm install eslint -D
+# or
+yarn add eslint -D
+# or
+pnpm install eslint -D
+# or
+bun add eslint -D
+```
+
+Then, for Node.js and compatible runtimes:
 
 ```shell
 npm install @eslint/json -D
